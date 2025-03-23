@@ -59,12 +59,12 @@ class Warna {
   const Warna(this.red, this.green, this.blue);
 
   void info() {
-    print("Warna - Red: $red, Green: $green, Blue: $blue");
+    print("Warna - Merah: $red, Hijau: $green, Biru: $blue");
   }
 }
 
 void main() {
-  var mobil = Mobil("Toyota", "Avanza", 2025);
+  var mobil = Mobil("Daihatsu", "Xenia", 2025);
   mobil.info();
 
   var mahasiswa = Mahasiswa();
